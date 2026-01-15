@@ -1,0 +1,16 @@
+{
+  "wikitq_train": {
+    "file_name": "/论文1lab/TableLoRA-main/table_lora_repo/data/wikitq_train.json",
+    "columns": {
+      "prompt": "prompt",
+      "response": "response"
+    }
+  },
+  "wikitq_test": {
+    "file_name": "/论文1lab/TableLoRA-main/table_lora_repo/data/wikitq_test.json",
+    "columns": {
+      "prompt": "prompt",
+      "response": "response"
+    }
+  }
+}
