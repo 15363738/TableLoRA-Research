@@ -1,0 +1,23 @@
+# === 忽略模型权重和训练输出 ===
+saves/
+output/
+*.pth
+*.bin
+*.safetensors
+*.pt
+
+# === 忽略数据集文件 (如果很大) ===
+data/*.json
+# 保留 dataset_info.json，其他的忽略
+!data/dataset_info.json
+
+# === 忽略 Python 缓存和日志 ===
+__pycache__/
+*.pyc
+runs/
+logs/
+wandb/
+
+# === 忽略环境相关 ===
+.env
+.venv
